@@ -1,7 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+# /node_modules
+# 匹配所有层级下的目录名，上面只匹配根目录下的目录名
+node_modules   
 /.pnp
 .pnp.*
 .yarn/*
