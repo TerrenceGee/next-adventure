@@ -1,5 +1,4 @@
 {
-  "extends": "",
   "paths": {
     "~/*": [
       "/*"
@@ -13,6 +12,11 @@
     "isolatedModules": false,
     "noEmit": false,
     "declaration": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "experimentalDecorators": true,
+    "declarationMap": false,
+    "resolveJsonModule": true,
+    "declarationDir": "types/server",
+    "moduleResolution": "node"
   }
 }
