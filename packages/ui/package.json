@@ -9,9 +9,12 @@
   },
   "type": "module",
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7"
   },
   "dependencies": {
+    "next-auth": "^4.24.11",
     "react-inlinesvg": "^4.2.0"
   },
   "exports": {

@@ -1,0 +1,18 @@
+{
+  "extends": "",
+  "paths": {
+    "~/*": [
+      "/*"
+    ],
+  },
+  "include": [
+    "./server"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "isolatedModules": false,
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  }
+}
