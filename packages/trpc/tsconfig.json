@@ -1,4 +1,5 @@
 {
+  "extends": "@plain/tsconfig/react-library.json",
   "paths": {
     "~/*": [
       "/*"

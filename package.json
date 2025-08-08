@@ -1,7 +1,19 @@
 {
-  "name": "next-demo",
-  "version": "0.1.0",
+  "name": "plain-demo",
+  "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "apps/api/*",
+    "packages/*",
+    "packages/embeds/*",
+    "packages/features/*",
+    "packages/app-store/*",
+    "packages/app-store/ee/*",
+    "packages/platform/*",
+    "packages/platform/examples/base",
+    "example-apps/*"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -24,5 +36,9 @@
     "eslint-config-next": "15.4.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=7.0.0"
   }
 }
